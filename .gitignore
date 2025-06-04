@@ -1,0 +1,27 @@
+# venv/
+# __pycache__/
+# *.pyc
+# *.pkl
+# .DS_Store
+# .env
+
+vectorstore/
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore pickle files (can be large, like vectorstore/index.pkl)
+*.pkl
+
+# Ignore environment files if any
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs or temp files (if any)
+*.log
